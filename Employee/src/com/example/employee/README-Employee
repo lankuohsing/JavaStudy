@@ -1,0 +1,2 @@
+#README-Employee
+EmployeeTest和Employee是在同一个package中的类，调用时不用import语句

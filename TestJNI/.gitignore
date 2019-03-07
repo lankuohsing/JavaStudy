@@ -1,0 +1,7 @@
+
+#C++
+# Prerequisites
+/x64/
+/.vs/
+*.db
+TestJNI/x64/
