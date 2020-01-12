@@ -1,26 +1,27 @@
+
 package io_example.read_keyboard;
 
 import java.util.Scanner;
 
 public class ScannerExample2 {
-	public static void main(String [] args) { 
-		Scanner sc = new Scanner(System.in); 
-        System.out.println("ÇëÊäÈëÄãµÄÄêÁä£º"); 
-        int age = sc.nextInt(); 
-        System.out.println("ÇëÊäÈëÄãµÄĞÕÃû£º"); 
-        //String name = sc.nextLine();//»áÌø¹ıÊäÈëĞÕÃûµÄ»·¾³£¬ÒÔÎªnextLine»á°ÑÉÏ´ÎµÄ»Ø³µ¼ü¶Á½øÈ¥ 
+    public static void main(String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("è¯·è¾“å…¥ä½ çš„å¹´é¾„ï¼š");
+        int age = sc.nextInt();
+        System.out.println("è¯·è¾“å…¥ä½ çš„å§“åï¼š");
+        //String name = sc.nextLine();//ä¼šè·³è¿‡è¾“å…¥å§“åçš„ç¯å¢ƒï¼Œä»¥ä¸ºnextLineä¼šæŠŠä¸Šæ¬¡çš„å›è½¦é”®è¯»è¿›å»
         /*
-         * next()ÓÃ·¨
-         * 1¡¢Ò»¶¨Òª¶ÁÈ¡µ½ÓĞĞ§×Ö·ûºó²Å¿ÉÒÔ½áÊøÊäÈë¡£
-         * 2¡¢¶ÔÊäÈëÓĞĞ§×Ö·ûÖ®Ç°Óöµ½µÄ¿Õ°×£¬next() ·½·¨»á×Ô¶¯½«ÆäÈ¥µô¡£
-         * 3¡¢Ö»ÓĞÊäÈëÓĞĞ§×Ö·ûºó²Å½«ÆäºóÃæÊäÈëµÄ¿Õ°××÷Îª·Ö¸ô·û»òÕß½áÊø·û¡£
-         * next()²»ÄÜµÃµ½´øÓĞ¿Õ¸ñµÄ×Ö·û´®
+         * next()ç”¨æ³•
+         * 1ã€ä¸€å®šè¦è¯»å–åˆ°æœ‰æ•ˆå­—ç¬¦åæ‰å¯ä»¥ç»“æŸè¾“å…¥ã€‚
+         * 2ã€å¯¹è¾“å…¥æœ‰æ•ˆå­—ç¬¦ä¹‹å‰é‡åˆ°çš„ç©ºç™½ï¼Œnext() æ–¹æ³•ä¼šè‡ªåŠ¨å°†å…¶å»æ‰ã€‚
+         * 3ã€åªæœ‰è¾“å…¥æœ‰æ•ˆå­—ç¬¦åæ‰å°†å…¶åé¢è¾“å…¥çš„ç©ºç™½ä½œä¸ºåˆ†éš”ç¬¦æˆ–è€…ç»“æŸç¬¦ã€‚
+         * next()ä¸èƒ½å¾—åˆ°å¸¦æœ‰ç©ºæ ¼çš„å­—ç¬¦ä¸²
          */
         String name = sc.next();
-        System.out.println("ÇëÊäÈëÄãµÄ¹¤×Ê£º"); 
-        float salary = sc.nextFloat(); 
-        System.out.println("ÄãµÄĞÅÏ¢ÈçÏÂ£º"); 
-        System.out.println("ĞÕÃû£º"+name+"\n"+"ÄêÁä£º"+age+"\n"+"¹¤×Ê£º"+salary); 
+        System.out.println("è¯·è¾“å…¥ä½ çš„å·¥èµ„ï¼š");
+        float salary = sc.nextFloat();
+        System.out.println("ä½ çš„ä¿¡æ¯å¦‚ä¸‹ï¼š");
+        System.out.println("å§“åï¼š"+name+"\n"+"å¹´é¾„ï¼š"+age+"\n"+"å·¥èµ„ï¼š"+salary);
         sc.close();
-}
+        }
 }
